@@ -2,6 +2,12 @@
 
 This is a very small JavaScript library.
 
+Using jQuery is overkill, but I want to use the shorthand of "document.getElementById", so I created it.
+
+これはとても小さいJavaScriptライブラリです。
+
+jQueryを使うのは大げさだが、"document.getElementById" の短縮形は使いたい、ということでこれを作りました。
+
 ## Functions
 
 ### $H
