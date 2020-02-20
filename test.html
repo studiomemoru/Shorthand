@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>test</title>
+</head>
+<body>
+<div id="output"></div>
+<script src="$H.js"></script>
+
+<script>
+    $H.later(()=>{
+        console.log($H("output").innerHTML);
+    });
+    $H("output").innerHTML="<b>ABC</b>";
+
+    var test;
+    if ($H.isset(test)) {
+        console.log("test is set");
+    }
+    else {
+        console.log("test isn't set");
+    }
+</script>
+
+</body>
+</html>
