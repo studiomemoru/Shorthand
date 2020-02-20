@@ -1,0 +1,2 @@
+# Shorthand
+$horthand JavaScript library.
